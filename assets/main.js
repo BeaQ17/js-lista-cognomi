@@ -13,3 +13,5 @@ console.log(others);
 
 //scrivi la posizione in cui si trova il cognome dell'utente nella lista
 //(partendo da 1)
+var post = others.indexOf(surname) + 1;
+document.getElementById("position").innerHTML = "La tua posizione in elenco è " + post;
